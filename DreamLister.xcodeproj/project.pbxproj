@@ -23,6 +23,7 @@
 		1019E1EC1E47DFB2002A4592 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1019E1E41E47DFB2002A4592 /* Image+CoreDataProperties.swift */; };
 		1019E1EF1E47E491002A4592 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1019E1EE1E47E491002A4592 /* tesla.jpg */; };
 		1019E1F21E47E4D9002A4592 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1019E1F11E47E4D9002A4592 /* MaterialView.swift */; };
+		1019E1F41E47E704002A4592 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1019E1F31E47E704002A4592 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		1019E1E41E47DFB2002A4592 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1019E1EE1E47E491002A4592 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
 		1019E1F11E47E4D9002A4592 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		1019E1F31E47E704002A4592 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				1019E1F11E47E4D9002A4592 /* MaterialView.swift */,
+				1019E1F31E47E704002A4592 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1019E1F41E47E704002A4592 /* ItemCell.swift in Sources */,
 				1019E1E71E47DFB2002A4592 /* ItemType+CoreDataClass.swift in Sources */,
 				1019E1E61E47DFB2002A4592 /* Store+CoreDataProperties.swift in Sources */,
 				1019E1B91E47D858002A4592 /* MainVC.swift in Sources */,

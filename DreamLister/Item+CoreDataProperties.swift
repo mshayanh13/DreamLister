@@ -2,7 +2,7 @@
 //  Item+CoreDataProperties.swift
 //  DreamLister
 //
-//  Created by Mohammad Hemani on 2/5/17.
+//  Created by Mohammad Hemani on 2/6/17.
 //  Copyright © 2017 Mohammad Hemani. All rights reserved.
 //
 
@@ -16,7 +16,7 @@ extension Item {
         return NSFetchRequest<Item>(entityName: "Item");
     }
 
-    @NSManaged public var created: String?
+    @NSManaged public var created: NSDate?
     @NSManaged public var details: String?
     @NSManaged public var title: String?
     @NSManaged public var price: Double

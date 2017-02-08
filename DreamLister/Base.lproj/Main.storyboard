@@ -270,7 +270,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="8HJ-ky-AFl">
                             <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="deletePressed:" destination="WgW-eg-mZk" id="TLh-NC-hW1"/>
+                                <action selector="deletePressed:" destination="WgW-eg-mZk" id="czD-Wi-acM"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
